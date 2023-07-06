@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "_": {
+            "item": "minecraft:purple_carpet"
+        },
+        "o": {
+            "item": "minecraft:egg"
+        },
+        "w": {
+            "item": "minecraft:quartz"
+        },
+        "a": {
+            "item": "minecraft:amethyst_shard"
+        }
+    },
+    "pattern": [
+        "o_o",
+        "www",
+        "a a"
+    ],
+    "result": {
+        "item": "minecraft:shulker_shell"
+    }
+}

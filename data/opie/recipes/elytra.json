@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": {
+            "item": "minecraft:white_wool"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "f": {
+            "item": "minecraft:feather"
+        },
+        "c": {
+            "item": "minecraft:clay_ball"
+        }
+    },
+    "pattern": [
+        "/#/",
+        "fcf",
+        "f f"
+    ],
+    "result": {
+        "item": "minecraft:elytra"
+    }
+}
