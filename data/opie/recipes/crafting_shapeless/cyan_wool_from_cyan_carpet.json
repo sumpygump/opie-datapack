@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cyan_carpet"
+    },
+    {
+      "item": "minecraft:cyan_carpet"
+    },
+    {
+      "item": "minecraft:cyan_carpet"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "minecraft:cyan_wool"
+  }
+}

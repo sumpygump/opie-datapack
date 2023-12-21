@@ -14,6 +14,10 @@ is on Linux), on Windows it may be at
 And `{worldname}` is the name of the world that you have previously created
 where you want the datapack to be loaded.
 
+While Minecraft is running, inside Minecraft:
+ - Use `/datapack list enabled` to list the loaded datapacks
+ - Use `/reload` to reload the datapack
+
 ## To build (development only)
 
 Run `make` to make the zip file if there were any changes in the `data` folder
