@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:raw_copper"
+        },
+        {
+            "item": "minecraft:calcite"
+        },
+        {
+            "item": "minecraft:charcoal"
+        },
+        {
+            "item": "minecraft:tuff"
+        }
+    ],
+    "result": {
+        "item": "minecraft:gunpowder",
+        "count": 4
+    }
+}
