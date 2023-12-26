@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "REP",
+        " C "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:gray_dye"
+        },
+        "R": {
+            "item": "minecraft:rotten_flesh"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        },
+        "P": {
+            "item": "minecraft:potato"
+        },
+        "C": {
+            "item": "minecraft:cyan_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:zombie_spawn_egg",
+        "count": 1
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "BEA",
+        " Q "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:coal"
+        },
+        "B": {
+            "item": "minecraft:bone"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        },
+        "A": {
+            "item": "minecraft:arrow"
+        },
+        "Q": {
+            "item": "minecraft:quartz"
+        }
+    },
+    "result": {
+        "item": "minecraft:skeleton_spawn_egg",
+        "count": 1
+    }
+}

@@ -4,21 +4,27 @@ This is a datapack for Minecraft version 1.19+
 
 ## To install
 
-Move the opie.zip into the datapacks directory of one of your Minecraft worlds.
-E.g. It should go in `~/.minecraft/saves/{worldname}/datapacks/opie.zip`, where
-`~/.minecraft/` is your Minecraft install directory (usually that is where it
-is on Linux), on Windows it may be at
-`C:\Users\{username}\AppData\Roaming\.minecraft` and on MacOS it may be at
-`/home/users/{username}/Library/Application Support/minecraft`.
+Move the docs/opie.zip into the datapacks directory of one of your Minecraft worlds.
+E.g. It should go in `{minecraft_dir}/saves/{worldname}/datapacks/opie.zip`, where
+`{minecraft_dir}` is your Minecraft install directory, see below for paths per OS.
+
+- Linux: `/home/{username}/.minecraft`
+- Windows: `C:\Users\{username}\AppData\Roaming\.minecraft`
+- MacOS: `/Users/{username}/Library/Application Support/minecraft`
+
+Where `{username}` is the your user name on the OS.
 
 And `{worldname}` is the name of the world that you have previously created
 where you want the datapack to be loaded.
 
 While Minecraft is running, inside Minecraft:
- - Use `/datapack list enabled` to list the loaded datapacks
- - Use `/reload` to reload the datapack
+ - Run `/datapack list enabled` to list the loaded datapacks
+ - Run `/reload` to reload the datapack
 
-## To build (development only)
+## To rebuild (development only)
 
-Run `make` to make the zip file if there were any changes in the `data` folder
+Run `make recipes` to regenerate all the recipes (only needed if changes were
+made in the bin python files.
+
+Run `make datapack` to make the zip file if there were any changes in the `data` folder
 (after adding/editing any recipes).
