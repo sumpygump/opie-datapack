@@ -14,5 +14,6 @@
   "result": {
     "count": 2,
     "item": "minecraft:pink_wool"
-  }
+  },
+  "group": "wool"
 }
