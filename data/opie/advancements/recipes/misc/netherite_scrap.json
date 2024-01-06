@@ -1,0 +1,74 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_calcite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:calcite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_soul_sand": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:soul_sand"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_basalt": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:basalt"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_nether_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "opie:netherite_scrap"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_calcite",
+      "has_soul_sand",
+      "has_basalt",
+      "has_nether_bricks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "opie:netherite_scrap"
+    ]
+  }
+}
+
