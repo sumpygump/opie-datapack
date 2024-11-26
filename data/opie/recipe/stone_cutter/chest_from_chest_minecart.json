@@ -3,6 +3,8 @@
     "ingredient": {
         "item": "minecraft:chest_minecart"
     },
-    "result": "minecraft:chest",
-    "count": 1
+    "result": {
+        "count": 1,
+        "id": "minecraft:chest"
+    }
 }

@@ -2,7 +2,7 @@
 
 import json
 
-TARGET_DIR = "data/opie/recipes/wood_cutter"
+TARGET_DIR = "data/opie/recipe/wood_cutter"
 
 wood_types = [
     "acacia",
@@ -96,9 +96,11 @@ def make_recipe(namespace, full_from, full_to, count=1, from_tag=False):
 
     recipe = {
         "type": "minecraft:stonecutting",
-        "count": count,
         "ingredient": {from_key: f"{namespace}:{full_from}"},
-        "result": f"minecraft:{full_to}",
+        "result": {
+            "id": f"minecraft:{full_to}",
+            "count": count,
+        },
     }
     filename = f"{TARGET_DIR}/{full_to}_from_{full_from}.json"
     print(filename)

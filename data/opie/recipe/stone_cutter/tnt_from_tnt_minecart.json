@@ -3,6 +3,8 @@
     "ingredient": {
         "item": "minecraft:tnt_minecart"
     },
-    "result": "minecraft:tnt",
-    "count": 1
+    "result": {
+        "id": "minecraft:tnt",
+        "count": 1
+    }
 }

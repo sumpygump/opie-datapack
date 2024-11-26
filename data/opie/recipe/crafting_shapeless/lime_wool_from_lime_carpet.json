@@ -12,8 +12,9 @@
     }
   ],
   "result": {
-    "count": 2,
-    "item": "minecraft:lime_wool"
+    "id": "minecraft:lime_wool",
+    "item": "minecraft:lime_wool",
+    "count": 2
   },
   "group": "wool"
 }

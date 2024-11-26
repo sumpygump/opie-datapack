@@ -2,8 +2,8 @@
 
 import json
 
-TARGET_DIR = "data/opie/recipes/crafting_shapeless"
-ADVANCEMENT_DIR = "data/opie/advancements/recipes/decoration"
+TARGET_DIR = "data/opie/recipe/crafting_shapeless"
+ADVANCEMENT_DIR = "data/opie/advancement/recipes/decoration"
 
 colors = [
     "white",
@@ -46,7 +46,7 @@ def make_recipe(
         "ingredients": [
             {from_key: f"{namespace}:{full_from}"} for i in range(0, input_count)
         ],
-        "result": {"count": yield_count, "item": f"{namespace}:{full_to}"},
+        "result": {"count": yield_count, "id": f"{namespace}:{full_to}"},
     }
 
     if group:

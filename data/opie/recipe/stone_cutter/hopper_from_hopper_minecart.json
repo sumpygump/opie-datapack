@@ -3,6 +3,8 @@
     "ingredient": {
         "item": "minecraft:hopper_minecart"
     },
-    "result": "minecraft:hopper",
-    "count": 1
+    "result": {
+        "id": "minecraft:hopper",
+        "count": 1
+    }
 }

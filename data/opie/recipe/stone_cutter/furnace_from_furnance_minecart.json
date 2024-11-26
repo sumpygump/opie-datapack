@@ -3,6 +3,8 @@
     "ingredient": {
         "item": "minecraft:furnace_minecart"
     },
-    "result": "minecraft:furnace",
-    "count": 1
+    "result": {
+        "id": "minecraft:furnace",
+        "count": 1
+    }
 }
