@@ -6,7 +6,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:mud",
+        "id": "minecraft:mud",
         "count": 1
     }
 }

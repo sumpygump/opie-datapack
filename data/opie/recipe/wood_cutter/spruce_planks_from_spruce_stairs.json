@@ -1,8 +1,10 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 1,
   "ingredient": {
     "item": "minecraft:spruce_stairs"
   },
-  "result": "minecraft:spruce_planks"
+  "result": {
+    "id": "minecraft:spruce_planks",
+    "count": 1
+  }
 }

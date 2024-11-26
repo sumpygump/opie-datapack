@@ -1,8 +1,10 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 8,
   "ingredient": {
     "tag": "minecraft:acacia_logs"
   },
-  "result": "minecraft:stick"
+  "result": {
+    "id": "minecraft:stick",
+    "count": 8
+  }
 }

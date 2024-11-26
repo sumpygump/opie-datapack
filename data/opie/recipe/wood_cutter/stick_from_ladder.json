@@ -1,8 +1,10 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 6,
   "ingredient": {
     "item": "minecraft:ladder"
   },
-  "result": "minecraft:stick"
+  "result": {
+    "id": "minecraft:stick",
+    "count": 6
+  }
 }

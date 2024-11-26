@@ -1,8 +1,10 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 2,
   "ingredient": {
     "tag": "minecraft:wooden_slabs"
   },
-  "result": "minecraft:stick"
+  "result": {
+    "id": "minecraft:stick",
+    "count": 2
+  }
 }

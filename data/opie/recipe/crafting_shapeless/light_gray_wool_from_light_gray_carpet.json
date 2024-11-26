@@ -12,9 +12,8 @@
     }
   ],
   "result": {
-    "id": "minecraft:light_gray_wool",
-    "item": "minecraft:light_gray_wool",
-    "count": 2
+    "count": 2,
+    "id": "minecraft:light_gray_wool"
   },
   "group": "wool"
 }

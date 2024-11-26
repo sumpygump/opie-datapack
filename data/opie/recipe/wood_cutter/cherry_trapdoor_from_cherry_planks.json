@@ -1,8 +1,10 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 1,
   "ingredient": {
     "item": "minecraft:cherry_planks"
   },
-  "result": "minecraft:cherry_trapdoor"
+  "result": {
+    "id": "minecraft:cherry_trapdoor",
+    "count": 1
+  }
 }

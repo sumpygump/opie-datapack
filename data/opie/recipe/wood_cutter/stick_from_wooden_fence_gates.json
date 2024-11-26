@@ -1,8 +1,10 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 2,
   "ingredient": {
     "tag": "opie:wooden_fence_gates"
   },
-  "result": "minecraft:stick"
+  "result": {
+    "id": "minecraft:stick",
+    "count": 2
+  }
 }

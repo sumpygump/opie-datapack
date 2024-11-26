@@ -1,8 +1,10 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 1,
   "ingredient": {
     "item": "minecraft:cherry_planks"
   },
-  "result": "minecraft:cherry_hanging_sign"
+  "result": {
+    "id": "minecraft:cherry_hanging_sign",
+    "count": 1
+  }
 }
