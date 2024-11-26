@@ -1,19 +1,19 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:pink_carpet"
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:pink_carpet"
+        },
+        {
+            "item": "minecraft:pink_carpet"
+        },
+        {
+            "item": "minecraft:pink_carpet"
+        }
+    ],
+    "result": {
+        "count": 2,
+        "id": "minecraft:pink_wool"
     },
-    {
-      "item": "minecraft:pink_carpet"
-    },
-    {
-      "item": "minecraft:pink_carpet"
-    }
-  ],
-  "result": {
-    "count": 2,
-    "id": "minecraft:pink_wool"
-  },
-  "group": "wool"
+    "group": "wool"
 }

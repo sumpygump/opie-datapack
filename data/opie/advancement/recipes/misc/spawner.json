@@ -1,47 +1,47 @@
 {
-  "parent": "minecraft:recipes/root",
-  "criteria": {
-    "has_iron_bars": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:iron_bars"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_iron_bars": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:iron_bars"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "has_obsidian": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:obsidian"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+            "conditions": {
+                "recipe": "opie:spawner"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        }
     },
-    "has_obsidian": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:obsidian"
-            ]
-          }
+    "requirements": [
+        [
+            "has_iron_bars",
+            "has_obsidian",
+            "has_the_recipe"
         ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_the_recipe": {
-      "conditions": {
-        "recipe": "opie:spawner"
-      },
-      "trigger": "minecraft:recipe_unlocked"
+    ],
+    "rewards": {
+        "recipes": [
+            "opie:spawner"
+        ]
     }
-  },
-  "requirements": [
-    [
-      "has_iron_bars",
-      "has_obsidian",
-      "has_the_recipe"
-    ]
-  ],
-  "rewards": {
-    "recipes": [
-      "opie:spawner"
-    ]
-  }
 }

@@ -1,48 +1,47 @@
 {
-  "parent": "minecraft:recipes/root",
-  "criteria": {
-    "has_purple_carpet": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:purple_carpet"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_purple_carpet": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:purple_carpet"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "has_quartz": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:quartz"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+            "conditions": {
+                "recipe": "opie:shulker_shell"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        }
     },
-    "has_quartz": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:quartz"
-            ]
-          }
+    "requirements": [
+        [
+            "has_purple_carpet",
+            "has_quartz",
+            "has_the_recipe"
         ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_the_recipe": {
-      "conditions": {
-        "recipe": "opie:shulker_shell"
-      },
-      "trigger": "minecraft:recipe_unlocked"
+    ],
+    "rewards": {
+        "recipes": [
+            "opie:shulker_shell"
+        ]
     }
-  },
-  "requirements": [
-    [
-      "has_purple_carpet",
-      "has_quartz",
-      "has_the_recipe"
-    ]
-  ],
-  "rewards": {
-    "recipes": [
-      "opie:shulker_shell"
-    ]
-  }
 }
-

@@ -1,19 +1,19 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:yellow_carpet"
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:yellow_carpet"
+        },
+        {
+            "item": "minecraft:yellow_carpet"
+        },
+        {
+            "item": "minecraft:yellow_carpet"
+        }
+    ],
+    "result": {
+        "count": 2,
+        "id": "minecraft:yellow_wool"
     },
-    {
-      "item": "minecraft:yellow_carpet"
-    },
-    {
-      "item": "minecraft:yellow_carpet"
-    }
-  ],
-  "result": {
-    "count": 2,
-    "id": "minecraft:yellow_wool"
-  },
-  "group": "wool"
+    "group": "wool"
 }

@@ -55,7 +55,7 @@ def make_recipe(
     filename = f"{TARGET_DIR}/{full_to}_from_{full_from}.json"
     print(filename)
     with open(filename, "w", encoding="utf-8") as f_d:
-        json.dump(recipe, f_d, indent=2)
+        json.dump(recipe, f_d, indent=4)
 
 
 def make_recipe_advancement(full_from, full_to):

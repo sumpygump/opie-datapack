@@ -1,47 +1,47 @@
 {
-  "parent": "minecraft:recipes/root",
-  "criteria": {
-    "has_spider_eye": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:spider_eye"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_spider_eye": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:spider_eye"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "has_black_dye": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:black_dye"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+            "conditions": {
+                "recipe": "opie:skeleton_spawn_egg"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        }
     },
-    "has_black_dye": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:black_dye"
-            ]
-          }
+    "requirements": [
+        [
+            "has_spider_eye",
+            "has_black_dye",
+            "has_the_recipe"
         ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_the_recipe": {
-      "conditions": {
-        "recipe": "opie:skeleton_spawn_egg"
-      },
-      "trigger": "minecraft:recipe_unlocked"
+    ],
+    "rewards": {
+        "recipes": [
+            "opie:spider_spawn_egg"
+        ]
     }
-  },
-  "requirements": [
-    [
-      "has_spider_eye",
-      "has_black_dye",
-      "has_the_recipe"
-    ]
-  ],
-  "rewards": {
-    "recipes": [
-      "opie:spider_spawn_egg"
-    ]
-  }
 }

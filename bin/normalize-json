@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+# Uses python module json.tool to reformat json files as input
+
+if [ -z $1 ]; then
+    echo "usage: $0 filename(s)"
+    exit 1
+fi
+
+TMP_FILE="/tmp/jsonfile1"
+
+# Iterate over arguments as filenames
+for filename in "$@"
+do
+    # Copy the file to a temp file first
+    cp "$filename" "$TMP_FILE"
+
+    # Operate on the temp file writing back to the original filename
+    python3 -m json.tool < "$TMP_FILE" > "$filename"
+done
+
+rm "$TMP_FILE"

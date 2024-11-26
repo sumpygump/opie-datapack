@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:smelting",
-  "cookingtime": 400,
-  "experience": 0.70,
-  "group": "diamond",
-  "ingredient": {
-    "item": "minecraft:granite"
-  },
-  "result": {
-    "id": "minecraft:diamond"
-  }
+    "type": "minecraft:smelting",
+    "cookingtime": 400,
+    "experience": 0.7,
+    "group": "diamond",
+    "ingredient": {
+        "item": "minecraft:granite"
+    },
+    "result": {
+        "id": "minecraft:diamond"
+    }
 }

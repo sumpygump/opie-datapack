@@ -1,48 +1,47 @@
 {
-  "parent": "minecraft:recipes/root",
-  "criteria": {
-    "has_leather": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:leather"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_leather": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "has_iron_ingot": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:iron_ingot"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+            "conditions": {
+                "recipe": "opie:saddle"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        }
     },
-    "has_iron_ingot": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:iron_ingot"
-            ]
-          }
+    "requirements": [
+        [
+            "has_leather",
+            "has_iron_ingot",
+            "has_the_recipe"
         ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_the_recipe": {
-      "conditions": {
-        "recipe": "opie:saddle"
-      },
-      "trigger": "minecraft:recipe_unlocked"
+    ],
+    "rewards": {
+        "recipes": [
+            "opie:saddle"
+        ]
     }
-  },
-  "requirements": [
-    [
-      "has_leather",
-      "has_iron_ingot",
-      "has_the_recipe"
-    ]
-  ],
-  "rewards": {
-    "recipes": [
-      "opie:saddle"
-    ]
-  }
 }
-

@@ -1,36 +1,36 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "group": "netherite_scrap",
-  "ingredients": [
-    {
-      "item": "minecraft:nether_bricks"
-    },
-    {
-      "item": "minecraft:nether_bricks"
-    },
-    {
-      "item": "minecraft:nether_bricks"
-    },
-    {
-      "item": "minecraft:flint"
-    },
-    {
-      "item": "minecraft:flint"
-    },
-    {
-      "item": "minecraft:basalt"
-    },
-    {
-      "item": "minecraft:calcite"
-    },
-    {
-      "item": "minecraft:soul_sand"
-    },
-    {
-      "item": "minecraft:raw_copper"
+    "type": "minecraft:crafting_shapeless",
+    "group": "netherite_scrap",
+    "ingredients": [
+        {
+            "item": "minecraft:nether_bricks"
+        },
+        {
+            "item": "minecraft:nether_bricks"
+        },
+        {
+            "item": "minecraft:nether_bricks"
+        },
+        {
+            "item": "minecraft:flint"
+        },
+        {
+            "item": "minecraft:flint"
+        },
+        {
+            "item": "minecraft:basalt"
+        },
+        {
+            "item": "minecraft:calcite"
+        },
+        {
+            "item": "minecraft:soul_sand"
+        },
+        {
+            "item": "minecraft:raw_copper"
+        }
+    ],
+    "result": {
+        "id": "minecraft:netherite_scrap"
     }
-  ],
-  "result": {
-    "id": "minecraft:netherite_scrap"
-  }
 }
