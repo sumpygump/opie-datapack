@@ -13,6 +13,7 @@
         " W"
     ],
     "result": {
-        "item": "minecraft:saddle"
+        "item": "minecraft:saddle",
+        "id": "minecraft:saddle"
     }
 }
